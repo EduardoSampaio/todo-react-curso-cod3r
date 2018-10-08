@@ -2,7 +2,6 @@ import React,{Component} from 'react'
 
 export default class Grid extends Component {
     toCssClasses(numbers){
-        console.log(numbers)
         const cols = numbers ? numbers.split('') : []
         let classes = ''
 
